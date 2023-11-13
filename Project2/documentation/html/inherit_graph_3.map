@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classElection.html" title="Main election class that runs CPL and IRV." alt="" coords="5,56,80,83"/>
+<area shape="rect" id="node2" href="$classCPLElection.html" title="This is the CPL election river class." alt="" coords="128,5,227,32"/>
+<area shape="rect" id="node3" href="$classIRVElection.html" title="This is the IRV Election process that is inherited from the elction class." alt="" coords="129,56,225,83"/>
+<area shape="rect" id="node4" href="$classPOElection.html" title="This is the popularity only election class." alt="" coords="131,107,223,133"/>
+</map>

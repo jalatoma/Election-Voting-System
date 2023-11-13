@@ -1,0 +1,108 @@
+\hypertarget{classCPLElection}{}\doxysection{C\+P\+L\+Election Class Reference}
+\label{classCPLElection}\index{CPLElection@{CPLElection}}
+
+
+This is the C\+PL election river class.  
+
+
+
+
+{\ttfamily \#include $<$C\+P\+L\+Election.\+h$>$}
+
+
+
+Inheritance diagram for C\+P\+L\+Election\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classCPLElection__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+P\+L\+Election\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classCPLElection__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCPLElection_a3cd30ffc29610d3d87fff51f339337c5}\label{classCPLElection_a3cd30ffc29610d3d87fff51f339337c5}} 
+\mbox{\hyperlink{classCPLElection_a3cd30ffc29610d3d87fff51f339337c5}{C\+P\+L\+Election}} ()
+\begin{DoxyCompactList}\small\item\em This is the default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classParty}{Party}} $\ast$ \mbox{\hyperlink{classCPLElection_a3f9e426e8298d23dbacf5f1bfeb4139f}{calc\+Results}} (string filename)
+\begin{DoxyCompactList}\small\item\em This runs the main C\+PL election. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCPLElection_ac0a7dc199c46dc38de09f70916ec76d7}{getnum\+Candidates}} ()
+\begin{DoxyCompactList}\small\item\em Gets the number of candidates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCPLElection_a7a7df530e4f23cf0b836b48d34fabf80}{setnum\+Candidates}} (int number)
+\begin{DoxyCompactList}\small\item\em Sets the number of candidates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCPLElection_a3c60bfa1e4f00850304465c719ff1289}\label{classCPLElection_a3c60bfa1e4f00850304465c719ff1289}} 
+vector$<$ \mbox{\hyperlink{classParty}{Party}} $\ast$ $>$ \mbox{\hyperlink{classCPLElection_a3c60bfa1e4f00850304465c719ff1289}{parties}}
+\begin{DoxyCompactList}\small\item\em Sets the vector of all the parties. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCPLElection_a518f402dc75197ba93ef9c884fa549b9}\label{classCPLElection_a518f402dc75197ba93ef9c884fa549b9}} 
+static int {\bfseries count} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the C\+PL election river class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCPLElection_a3f9e426e8298d23dbacf5f1bfeb4139f}\label{classCPLElection_a3f9e426e8298d23dbacf5f1bfeb4139f}} 
+\index{CPLElection@{CPLElection}!calcResults@{calcResults}}
+\index{calcResults@{calcResults}!CPLElection@{CPLElection}}
+\doxysubsubsection{\texorpdfstring{calcResults()}{calcResults()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classParty}{Party}} $\ast$ C\+P\+L\+Election\+::calc\+Results (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})}
+
+
+
+This runs the main C\+PL election. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & Input file with the ballots \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCPLElection_ac0a7dc199c46dc38de09f70916ec76d7}\label{classCPLElection_ac0a7dc199c46dc38de09f70916ec76d7}} 
+\index{CPLElection@{CPLElection}!getnumCandidates@{getnumCandidates}}
+\index{getnumCandidates@{getnumCandidates}!CPLElection@{CPLElection}}
+\doxysubsubsection{\texorpdfstring{getnumCandidates()}{getnumCandidates()}}
+{\footnotesize\ttfamily int C\+P\+L\+Election\+::getnum\+Candidates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the number of candidates. 
+
+\begin{DoxyReturn}{Returns}
+Int of number of candidates 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCPLElection_a7a7df530e4f23cf0b836b48d34fabf80}\label{classCPLElection_a7a7df530e4f23cf0b836b48d34fabf80}} 
+\index{CPLElection@{CPLElection}!setnumCandidates@{setnumCandidates}}
+\index{setnumCandidates@{setnumCandidates}!CPLElection@{CPLElection}}
+\doxysubsubsection{\texorpdfstring{setnumCandidates()}{setnumCandidates()}}
+{\footnotesize\ttfamily void C\+P\+L\+Election\+::setnum\+Candidates (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})}
+
+
+
+Sets the number of candidates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & The number of candidates we want to set it to \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+P\+L\+Election.\+h\item 
+C\+P\+L\+Election.\+cpp\end{DoxyCompactItemize}

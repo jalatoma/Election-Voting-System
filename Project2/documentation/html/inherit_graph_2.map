@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classCandidate.html" title="This is the main candidate class, holds candidates of an election." alt="" coords="5,31,93,57"/>
+<area shape="rect" id="node2" href="$classCPLCandidate.html" title="This is the CPL candidates, which inherit from the Candidate class." alt="" coords="141,5,253,32"/>
+<area shape="rect" id="node3" href="$classIRVCandidate.html" title="Holds IRV candidates that inherits from candidate class." alt="" coords="142,56,253,83"/>
+</map>

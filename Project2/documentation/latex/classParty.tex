@@ -1,0 +1,186 @@
+\hypertarget{classParty}{}\doxysection{Party Class Reference}
+\label{classParty}\index{Party@{Party}}
+
+
+This is the party class used for C\+PL.  
+
+
+
+
+{\ttfamily \#include $<$party.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classParty_a31d77f763e1dc9549532653a4a0dfde5}\label{classParty_a31d77f763e1dc9549532653a4a0dfde5}} 
+\mbox{\hyperlink{classParty_a31d77f763e1dc9549532653a4a0dfde5}{Party}} ()
+\begin{DoxyCompactList}\small\item\em This is the default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classParty_a91c775a98abcc623128b924f74d54ab9}{Party}} (string name)
+\begin{DoxyCompactList}\small\item\em This sets the party name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classParty_aee1f64df5486d91dadf87cc536271775}{get\+Party\+Name}} ()
+\begin{DoxyCompactList}\small\item\em This gets the current party name. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classParty_a186691a68c520c1c4ee560d5b0423529}{get\+Party\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em This gets the current party votes. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classParty_afed10a17a4fd49002444b8b88ca653d4}{get\+Party\+Seats}} ()
+\begin{DoxyCompactList}\small\item\em This gets the current party seats. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classParty_a44c222a9a69bf7e5e71cf79706a7a44b}{get\+Remaining\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em This gets the remaining party votes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParty_a91a13f47c05db0999d277504439f32e0}{set\+Party\+Name}} (string name)
+\begin{DoxyCompactList}\small\item\em This sets the current party name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParty_ace7468e44f1a8915d9ef33db89516909}{set\+Party\+Votes}} (int party\+Votes)
+\begin{DoxyCompactList}\small\item\em This sets the current party votes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParty_a346f52931fd5592b6fb8a157f7c27f37}{set\+Party\+Seats}} (int party\+Seats)
+\begin{DoxyCompactList}\small\item\em This sets the current party seats. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParty_a8d1ae70aedddc53bf3ab0fed624d608c}{set\+Remaining\+Votes}} (int votes)
+\begin{DoxyCompactList}\small\item\em This sets the remaining party votes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classParty_acfcfbea29733dd478fce73a3532b38cb}\label{classParty_acfcfbea29733dd478fce73a3532b38cb}} 
+void \mbox{\hyperlink{classParty_acfcfbea29733dd478fce73a3532b38cb}{increment\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em This increments the votes for the party by 1. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classParty_a44f86b2b192defd61b418286829d5e96}\label{classParty_a44f86b2b192defd61b418286829d5e96}} 
+vector$<$ \mbox{\hyperlink{classCPLCandidate}{C\+P\+L\+Candidate}} $\ast$ $>$ \mbox{\hyperlink{classParty_a44f86b2b192defd61b418286829d5e96}{candidates}}
+\begin{DoxyCompactList}\small\item\em This holds the candidates for the party. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the party class used for C\+PL. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classParty_a91c775a98abcc623128b924f74d54ab9}\label{classParty_a91c775a98abcc623128b924f74d54ab9}} 
+\index{Party@{Party}!Party@{Party}}
+\index{Party@{Party}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{Party()}{Party()}}
+{\footnotesize\ttfamily Party\+::\+Party (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+This sets the party name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & This is the party name we want to set it to \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classParty_aee1f64df5486d91dadf87cc536271775}\label{classParty_aee1f64df5486d91dadf87cc536271775}} 
+\index{Party@{Party}!getPartyName@{getPartyName}}
+\index{getPartyName@{getPartyName}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{getPartyName()}{getPartyName()}}
+{\footnotesize\ttfamily string Party\+::get\+Party\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This gets the current party name. 
+
+\begin{DoxyReturn}{Returns}
+This returns the party name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classParty_afed10a17a4fd49002444b8b88ca653d4}\label{classParty_afed10a17a4fd49002444b8b88ca653d4}} 
+\index{Party@{Party}!getPartySeats@{getPartySeats}}
+\index{getPartySeats@{getPartySeats}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{getPartySeats()}{getPartySeats()}}
+{\footnotesize\ttfamily int Party\+::get\+Party\+Seats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This gets the current party seats. 
+
+\begin{DoxyReturn}{Returns}
+This returns the party seats 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classParty_a186691a68c520c1c4ee560d5b0423529}\label{classParty_a186691a68c520c1c4ee560d5b0423529}} 
+\index{Party@{Party}!getPartyVotes@{getPartyVotes}}
+\index{getPartyVotes@{getPartyVotes}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{getPartyVotes()}{getPartyVotes()}}
+{\footnotesize\ttfamily int Party\+::get\+Party\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This gets the current party votes. 
+
+\begin{DoxyReturn}{Returns}
+This returns the party votes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classParty_a44c222a9a69bf7e5e71cf79706a7a44b}\label{classParty_a44c222a9a69bf7e5e71cf79706a7a44b}} 
+\index{Party@{Party}!getRemainingVotes@{getRemainingVotes}}
+\index{getRemainingVotes@{getRemainingVotes}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{getRemainingVotes()}{getRemainingVotes()}}
+{\footnotesize\ttfamily int Party\+::get\+Remaining\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This gets the remaining party votes. 
+
+\begin{DoxyReturn}{Returns}
+This returns the remaining party votes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classParty_a91a13f47c05db0999d277504439f32e0}\label{classParty_a91a13f47c05db0999d277504439f32e0}} 
+\index{Party@{Party}!setPartyName@{setPartyName}}
+\index{setPartyName@{setPartyName}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{setPartyName()}{setPartyName()}}
+{\footnotesize\ttfamily void Party\+::set\+Party\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+This sets the current party name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & This is what we want to set it to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classParty_a346f52931fd5592b6fb8a157f7c27f37}\label{classParty_a346f52931fd5592b6fb8a157f7c27f37}} 
+\index{Party@{Party}!setPartySeats@{setPartySeats}}
+\index{setPartySeats@{setPartySeats}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{setPartySeats()}{setPartySeats()}}
+{\footnotesize\ttfamily void Party\+::set\+Party\+Seats (\begin{DoxyParamCaption}\item[{int}]{party\+Seats }\end{DoxyParamCaption})}
+
+
+
+This sets the current party seats. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & This is what we want to set it to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classParty_ace7468e44f1a8915d9ef33db89516909}\label{classParty_ace7468e44f1a8915d9ef33db89516909}} 
+\index{Party@{Party}!setPartyVotes@{setPartyVotes}}
+\index{setPartyVotes@{setPartyVotes}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{setPartyVotes()}{setPartyVotes()}}
+{\footnotesize\ttfamily void Party\+::set\+Party\+Votes (\begin{DoxyParamCaption}\item[{int}]{party\+Votes }\end{DoxyParamCaption})}
+
+
+
+This sets the current party votes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & This is what we want to set it to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classParty_a8d1ae70aedddc53bf3ab0fed624d608c}\label{classParty_a8d1ae70aedddc53bf3ab0fed624d608c}} 
+\index{Party@{Party}!setRemainingVotes@{setRemainingVotes}}
+\index{setRemainingVotes@{setRemainingVotes}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{setRemainingVotes()}{setRemainingVotes()}}
+{\footnotesize\ttfamily void Party\+::set\+Remaining\+Votes (\begin{DoxyParamCaption}\item[{int}]{votes }\end{DoxyParamCaption})}
+
+
+
+This sets the remaining party votes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & This is what we want to set it to \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+party.\+h\item 
+party.\+cpp\end{DoxyCompactItemize}

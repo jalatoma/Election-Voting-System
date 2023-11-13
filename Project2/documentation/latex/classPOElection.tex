@@ -1,0 +1,87 @@
+\hypertarget{classPOElection}{}\doxysection{P\+O\+Election Class Reference}
+\label{classPOElection}\index{POElection@{POElection}}
+
+
+This is the popularity only election class.  
+
+
+
+
+{\ttfamily \#include $<$P\+O\+Election.\+h$>$}
+
+
+
+Inheritance diagram for P\+O\+Election\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{classPOElection__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for P\+O\+Election\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classPOElection__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPOElection_ae111352376198046249303ce2d34f8c1}\label{classPOElection_ae111352376198046249303ce2d34f8c1}} 
+\mbox{\hyperlink{classPOElection_ae111352376198046249303ce2d34f8c1}{P\+O\+Election}} ()
+\begin{DoxyCompactList}\small\item\em This is the constructor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPOElection_aa35737382f0abb8d654a0d79e3d9cdb8}{get\+Num\+Candidates}} ()
+\begin{DoxyCompactList}\small\item\em This gets the number of candidates. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classPOElection_a6bc1b55537373b6aec2250805dde0931}\label{classPOElection_a6bc1b55537373b6aec2250805dde0931}} 
+void \mbox{\hyperlink{classPOElection_a6bc1b55537373b6aec2250805dde0931}{set\+Num\+Candidates}} (int number)
+\begin{DoxyCompactList}\small\item\em This sets the number of candidates. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCandidate}{Candidate}} $\ast$ \mbox{\hyperlink{classPOElection_a20944581cdfd9df5d787e4cf73e5dfaf}{calc\+Results}} (string filename)
+\begin{DoxyCompactList}\small\item\em This calculates the results of the election. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPOElection_a0d98d8ff009843fef8a450b734c79fdc}\label{classPOElection_a0d98d8ff009843fef8a450b734c79fdc}} 
+static int {\bfseries count} = 0
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This is the popularity only election class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPOElection_a20944581cdfd9df5d787e4cf73e5dfaf}\label{classPOElection_a20944581cdfd9df5d787e4cf73e5dfaf}} 
+\index{POElection@{POElection}!calcResults@{calcResults}}
+\index{calcResults@{calcResults}!POElection@{POElection}}
+\doxysubsubsection{\texorpdfstring{calcResults()}{calcResults()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCandidate}{Candidate}} $\ast$ P\+O\+Election\+::calc\+Results (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})}
+
+
+
+This calculates the results of the election. 
+
+\begin{DoxyReturn}{Returns}
+The winner of type \mbox{\hyperlink{classCandidate}{Candidate}} class 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPOElection_aa35737382f0abb8d654a0d79e3d9cdb8}\label{classPOElection_aa35737382f0abb8d654a0d79e3d9cdb8}} 
+\index{POElection@{POElection}!getNumCandidates@{getNumCandidates}}
+\index{getNumCandidates@{getNumCandidates}!POElection@{POElection}}
+\doxysubsubsection{\texorpdfstring{getNumCandidates()}{getNumCandidates()}}
+{\footnotesize\ttfamily int P\+O\+Election\+::get\+Num\+Candidates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This gets the number of candidates. 
+
+\begin{DoxyReturn}{Returns}
+the int of number of candidates 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+P\+O\+Election.\+h\item 
+P\+O\+Election.\+cpp\end{DoxyCompactItemize}

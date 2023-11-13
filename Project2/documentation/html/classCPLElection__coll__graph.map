@@ -1,0 +1,5 @@
+<map id="CPLElection" name="CPLElection">
+<area shape="rect" id="node1" title="This is the CPL election river class." alt="" coords="5,171,104,197"/>
+<area shape="rect" id="node2" href="$classElection.html" title="Main election class that runs CPL and IRV." alt="" coords="17,95,92,121"/>
+<area shape="rect" id="node3" href="$classCandidate.html" title="This is the main candidate class, holds candidates of an election." alt="" coords="11,5,99,32"/>
+</map>

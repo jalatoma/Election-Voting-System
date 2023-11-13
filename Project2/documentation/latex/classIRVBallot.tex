@@ -1,0 +1,117 @@
+\hypertarget{classIRVBallot}{}\doxysection{I\+R\+V\+Ballot Class Reference}
+\label{classIRVBallot}\index{IRVBallot@{IRVBallot}}
+
+
+This is the ballot parser for I\+RV elections.  
+
+
+
+
+{\ttfamily \#include $<$I\+R\+V\+Ballot.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIRVBallot_a4e06e6473e2e1e6b7a0829c3e726495c}\label{classIRVBallot_a4e06e6473e2e1e6b7a0829c3e726495c}} 
+\mbox{\hyperlink{classIRVBallot_a4e06e6473e2e1e6b7a0829c3e726495c}{I\+R\+V\+Ballot}} ()
+\begin{DoxyCompactList}\small\item\em Defualt constructor for the \mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} class. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRVBallot_ab165a320c47640db82f9fde28e5483c8}{get\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Gets the count of ballots. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVBallot_a99f5793e7ccf31e22b2b0c9f84232848}{push\+Candidates}} (\mbox{\hyperlink{classIRVCandidate}{I\+R\+V\+Candidate}} $\ast$x)
+\begin{DoxyCompactList}\small\item\em Pushes the candidates onto another class. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classIRVBallot_a256e9a645e0592fc15a1bd7b6dc3031e}{isempty}} ()
+\begin{DoxyCompactList}\small\item\em Checks to see if there are any ballots. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVBallot_ad02db28939f6e9921ed542f70b4608e1}{setnum\+Ballots}} (int count)
+\begin{DoxyCompactList}\small\item\em Sets the number of ballots. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRVBallot_a3f6c24784fb1433375463fc38581d11d}{getnum\+Ballots}} ()
+\begin{DoxyCompactList}\small\item\em Gets the number of ballots in the election. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIRVBallot_ab83e40b479ce48122dccc8540a8720dc}\label{classIRVBallot_ab83e40b479ce48122dccc8540a8720dc}} 
+vector$<$ \mbox{\hyperlink{classIRVCandidate}{I\+R\+V\+Candidate}} $\ast$ $>$ \mbox{\hyperlink{classIRVBallot_ab83e40b479ce48122dccc8540a8720dc}{candidates}}
+\begin{DoxyCompactList}\small\item\em Holds the candidates for the election. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classIRVBallot_a20beaca262b9265028bcbd39f98c600a}\label{classIRVBallot_a20beaca262b9265028bcbd39f98c600a}} 
+vector$<$ vector$<$ int $>$ $>$ \mbox{\hyperlink{classIRVBallot_a20beaca262b9265028bcbd39f98c600a}{ballots\+Vector}}
+\begin{DoxyCompactList}\small\item\em Holds the ballots in a vector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the ballot parser for I\+RV elections. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIRVBallot_ab165a320c47640db82f9fde28e5483c8}\label{classIRVBallot_ab165a320c47640db82f9fde28e5483c8}} 
+\index{IRVBallot@{IRVBallot}!getCount@{getCount}}
+\index{getCount@{getCount}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{getCount()}{getCount()}}
+{\footnotesize\ttfamily int I\+R\+V\+Ballot\+::get\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the count of ballots. 
+
+\begin{DoxyReturn}{Returns}
+Int amount of how mnay ballots there are 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIRVBallot_a3f6c24784fb1433375463fc38581d11d}\label{classIRVBallot_a3f6c24784fb1433375463fc38581d11d}} 
+\index{IRVBallot@{IRVBallot}!getnumBallots@{getnumBallots}}
+\index{getnumBallots@{getnumBallots}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{getnumBallots()}{getnumBallots()}}
+{\footnotesize\ttfamily int I\+R\+V\+Ballot\+::getnum\+Ballots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the number of ballots in the election. 
+
+\begin{DoxyReturn}{Returns}
+Int value of the ballots in the election 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIRVBallot_a256e9a645e0592fc15a1bd7b6dc3031e}\label{classIRVBallot_a256e9a645e0592fc15a1bd7b6dc3031e}} 
+\index{IRVBallot@{IRVBallot}!isempty@{isempty}}
+\index{isempty@{isempty}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{isempty()}{isempty()}}
+{\footnotesize\ttfamily bool I\+R\+V\+Ballot\+::isempty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks to see if there are any ballots. 
+
+\begin{DoxyReturn}{Returns}
+Boolean if yes or no empty 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIRVBallot_a99f5793e7ccf31e22b2b0c9f84232848}\label{classIRVBallot_a99f5793e7ccf31e22b2b0c9f84232848}} 
+\index{IRVBallot@{IRVBallot}!pushCandidates@{pushCandidates}}
+\index{pushCandidates@{pushCandidates}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{pushCandidates()}{pushCandidates()}}
+{\footnotesize\ttfamily void I\+R\+V\+Ballot\+::push\+Candidates (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIRVCandidate}{I\+R\+V\+Candidate}} $\ast$}]{x }\end{DoxyParamCaption})}
+
+
+
+Pushes the candidates onto another class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classIRVCandidate}{I\+R\+V\+Candidate}}} & This is the object we want to push onto \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIRVBallot_ad02db28939f6e9921ed542f70b4608e1}\label{classIRVBallot_ad02db28939f6e9921ed542f70b4608e1}} 
+\index{IRVBallot@{IRVBallot}!setnumBallots@{setnumBallots}}
+\index{setnumBallots@{setnumBallots}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{setnumBallots()}{setnumBallots()}}
+{\footnotesize\ttfamily void I\+R\+V\+Ballot\+::setnum\+Ballots (\begin{DoxyParamCaption}\item[{int}]{count }\end{DoxyParamCaption})}
+
+
+
+Sets the number of ballots. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & This is the number of ballots we want to set it to \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+I\+R\+V\+Ballot.\+h\item 
+I\+R\+V\+Ballot.\+cpp\end{DoxyCompactItemize}

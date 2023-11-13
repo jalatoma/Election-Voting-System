@@ -1,0 +1,4 @@
+<map id="IRVElection" name="IRVElection">
+<area shape="rect" id="node1" title="This is the IRV Election process that is inherited from the elction class." alt="" coords="5,80,101,107"/>
+<area shape="rect" id="node2" href="$classElection.html" title="Main election class that runs CPL and IRV." alt="" coords="16,5,91,32"/>
+</map>

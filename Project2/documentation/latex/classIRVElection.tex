@@ -1,0 +1,155 @@
+\hypertarget{classIRVElection}{}\doxysection{I\+R\+V\+Election Class Reference}
+\label{classIRVElection}\index{IRVElection@{IRVElection}}
+
+
+This is the I\+RV \mbox{\hyperlink{classElection}{Election}} process that is inherited from the elction class.  
+
+
+
+
+{\ttfamily \#include $<$I\+R\+V\+Election.\+h$>$}
+
+
+
+Inheritance diagram for I\+R\+V\+Election\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classIRVElection__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for I\+R\+V\+Election\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=153pt]{classIRVElection__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIRVElection_a8a4625a01cf95b177416259eb1208527}\label{classIRVElection_a8a4625a01cf95b177416259eb1208527}} 
+\mbox{\hyperlink{classIRVElection_a8a4625a01cf95b177416259eb1208527}{I\+R\+V\+Election}} ()
+\begin{DoxyCompactList}\small\item\em This is the default constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVElection_a95f9cf996e223a77592b32012017270e}{eliminate\+Candidate}} (\mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} $\ast$ballots, int num\+Ballots, int num\+Candidates, ofstream \&file)
+\begin{DoxyCompactList}\small\item\em This eliminates a candidate from the election and distributes their votes. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRVElection_a1bb46f71c6b59c8ab290807d484245ec}{getnum\+Candidates}} ()
+\begin{DoxyCompactList}\small\item\em This gets the number of candidates running in the election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVElection_a863494bda18b93b133a7109705c6a157}{setnum\+Candidates}} (int number)
+\begin{DoxyCompactList}\small\item\em Sets the nuber of candidates. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCandidate}{Candidate}} $\ast$ \mbox{\hyperlink{classIRVElection_a4cac1a1796632e5187c5058a45834e6e}{calc\+Results}} (string filename)
+\begin{DoxyCompactList}\small\item\em Calculates results pf the election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVElection_ae16bf9c54ea5f640113ea9645dd48e7d}{print\+Table}} (\mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} $\ast$ballots, int num\+Candidates, int num\+Ballots)
+\begin{DoxyCompactList}\small\item\em Prints the table for the election. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIRVElection_aacc1f6430d6e9628e2e1e2a554a4b0f3}\label{classIRVElection_aacc1f6430d6e9628e2e1e2a554a4b0f3}} 
+int {\bfseries rounds}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIRVElection_aa3b08e932a18e0aba29ba1b53fb0fa99}\label{classIRVElection_aa3b08e932a18e0aba29ba1b53fb0fa99}} 
+static int {\bfseries count} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the I\+RV \mbox{\hyperlink{classElection}{Election}} process that is inherited from the elction class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIRVElection_a4cac1a1796632e5187c5058a45834e6e}\label{classIRVElection_a4cac1a1796632e5187c5058a45834e6e}} 
+\index{IRVElection@{IRVElection}!calcResults@{calcResults}}
+\index{calcResults@{calcResults}!IRVElection@{IRVElection}}
+\doxysubsubsection{\texorpdfstring{calcResults()}{calcResults()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCandidate}{Candidate}} $\ast$ I\+R\+V\+Election\+::calc\+Results (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})}
+
+
+
+Calculates results pf the election. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & This is the file we\textquotesingle{}re reading from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The candidate that won 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIRVElection_a95f9cf996e223a77592b32012017270e}\label{classIRVElection_a95f9cf996e223a77592b32012017270e}} 
+\index{IRVElection@{IRVElection}!eliminateCandidate@{eliminateCandidate}}
+\index{eliminateCandidate@{eliminateCandidate}!IRVElection@{IRVElection}}
+\doxysubsubsection{\texorpdfstring{eliminateCandidate()}{eliminateCandidate()}}
+{\footnotesize\ttfamily void I\+R\+V\+Election\+::eliminate\+Candidate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} $\ast$}]{ballots,  }\item[{int}]{num\+Ballots,  }\item[{int}]{num\+Candidates,  }\item[{ofstream \&}]{file }\end{DoxyParamCaption})}
+
+
+
+This eliminates a candidate from the election and distributes their votes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}}} & This is the ballots for the election \\
+\hline
+{\em int} & The number of ballots \\
+\hline
+{\em int} & The number of candidates \\
+\hline
+{\em ofstream} & The audit file being written to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIRVElection_a1bb46f71c6b59c8ab290807d484245ec}\label{classIRVElection_a1bb46f71c6b59c8ab290807d484245ec}} 
+\index{IRVElection@{IRVElection}!getnumCandidates@{getnumCandidates}}
+\index{getnumCandidates@{getnumCandidates}!IRVElection@{IRVElection}}
+\doxysubsubsection{\texorpdfstring{getnumCandidates()}{getnumCandidates()}}
+{\footnotesize\ttfamily int I\+R\+V\+Election\+::getnum\+Candidates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This gets the number of candidates running in the election. 
+
+\begin{DoxyReturn}{Returns}
+An int of how mnay candidates there are 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIRVElection_ae16bf9c54ea5f640113ea9645dd48e7d}\label{classIRVElection_ae16bf9c54ea5f640113ea9645dd48e7d}} 
+\index{IRVElection@{IRVElection}!printTable@{printTable}}
+\index{printTable@{printTable}!IRVElection@{IRVElection}}
+\doxysubsubsection{\texorpdfstring{printTable()}{printTable()}}
+{\footnotesize\ttfamily void I\+R\+V\+Election\+::print\+Table (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} $\ast$}]{ballots,  }\item[{int}]{num\+Candidates,  }\item[{int}]{num\+Ballots }\end{DoxyParamCaption})}
+
+
+
+Prints the table for the election. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}}} & This is the ballots that we need to parse through \\
+\hline
+{\em int} & This is the number of candidates in the election \\
+\hline
+{\em int} & This is the number of ballots \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIRVElection_a863494bda18b93b133a7109705c6a157}\label{classIRVElection_a863494bda18b93b133a7109705c6a157}} 
+\index{IRVElection@{IRVElection}!setnumCandidates@{setnumCandidates}}
+\index{setnumCandidates@{setnumCandidates}!IRVElection@{IRVElection}}
+\doxysubsubsection{\texorpdfstring{setnumCandidates()}{setnumCandidates()}}
+{\footnotesize\ttfamily void I\+R\+V\+Election\+::setnum\+Candidates (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})}
+
+
+
+Sets the nuber of candidates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & This is how many candidates we want to set it to \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+I\+R\+V\+Election.\+h\item 
+I\+R\+V\+Election.\+cpp\end{DoxyCompactItemize}

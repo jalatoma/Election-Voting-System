@@ -1,0 +1,146 @@
+\hypertarget{classCandidate}{}\doxysection{Candidate Class Reference}
+\label{classCandidate}\index{Candidate@{Candidate}}
+
+
+This is the main candidate class, holds candidates of an election.  
+
+
+
+
+{\ttfamily \#include $<$candidate.\+h$>$}
+
+
+
+Inheritance diagram for Candidate\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{classCandidate__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCandidate_aa2747741fb662af5e8f3d01d1d1a43b6}\label{classCandidate_aa2747741fb662af5e8f3d01d1d1a43b6}} 
+\mbox{\hyperlink{classCandidate_aa2747741fb662af5e8f3d01d1d1a43b6}{Candidate}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for candidate class, initializes private variables. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCandidate_a418702ea0c4a5bd3e5148196baea5b5a}{Candidate}} (string candidate\+Name)
+\begin{DoxyCompactList}\small\item\em Constructor for candidate class, initializes candidate name variables. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCandidate_a238fd3ea6db4cb248565ca9e3b3f608a}{get\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em Gets the votes. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classCandidate_a1ee7f62e1576e4959e3e50979ccd99b9}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets the name of the candidate. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classCandidate_aa1c6b989747ddc4570891cf0f79a28f3}{get\+Party}} ()
+\begin{DoxyCompactList}\small\item\em Gets the party name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCandidate_abb9a733e4a39e1223b185be2c711321f}{set\+Party}} (string x)
+\begin{DoxyCompactList}\small\item\em Sets the party name to a specified x. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCandidate_aaab215573ed5a3eb62d6cbde40da1c00}\label{classCandidate_aaab215573ed5a3eb62d6cbde40da1c00}} 
+void \mbox{\hyperlink{classCandidate_aaab215573ed5a3eb62d6cbde40da1c00}{increase\+Vote}} ()
+\begin{DoxyCompactList}\small\item\em Increases the vote count by 1. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCandidate_a1c11cf5fece39c5da85a7dff87e8959d}{set\+Name}} (string set\+Name)
+\begin{DoxyCompactList}\small\item\em Sets the name variable to set\+Name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCandidate_ae09adc5fd0f88608990548538dc400eb}\label{classCandidate_ae09adc5fd0f88608990548538dc400eb}} 
+double \mbox{\hyperlink{classCandidate_ae09adc5fd0f88608990548538dc400eb}{votes}}
+\begin{DoxyCompactList}\small\item\em Holds the vote count. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the main candidate class, holds candidates of an election. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCandidate_a418702ea0c4a5bd3e5148196baea5b5a}\label{classCandidate_a418702ea0c4a5bd3e5148196baea5b5a}} 
+\index{Candidate@{Candidate}!Candidate@{Candidate}}
+\index{Candidate@{Candidate}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{Candidate()}{Candidate()}}
+{\footnotesize\ttfamily Candidate\+::\+Candidate (\begin{DoxyParamCaption}\item[{string}]{candidate\+Name }\end{DoxyParamCaption})}
+
+
+
+Constructor for candidate class, initializes candidate name variables. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & This is the candidate name we want to set it to \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCandidate_a1ee7f62e1576e4959e3e50979ccd99b9}\label{classCandidate_a1ee7f62e1576e4959e3e50979ccd99b9}} 
+\index{Candidate@{Candidate}!getName@{getName}}
+\index{getName@{getName}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily string Candidate\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the name of the candidate. 
+
+\begin{DoxyReturn}{Returns}
+A string of the candidate name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCandidate_aa1c6b989747ddc4570891cf0f79a28f3}\label{classCandidate_aa1c6b989747ddc4570891cf0f79a28f3}} 
+\index{Candidate@{Candidate}!getParty@{getParty}}
+\index{getParty@{getParty}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{getParty()}{getParty()}}
+{\footnotesize\ttfamily string Candidate\+::get\+Party (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the party name. 
+
+\begin{DoxyReturn}{Returns}
+String of the party name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCandidate_a238fd3ea6db4cb248565ca9e3b3f608a}\label{classCandidate_a238fd3ea6db4cb248565ca9e3b3f608a}} 
+\index{Candidate@{Candidate}!getVotes@{getVotes}}
+\index{getVotes@{getVotes}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{getVotes()}{getVotes()}}
+{\footnotesize\ttfamily int Candidate\+::get\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the votes. 
+
+\begin{DoxyReturn}{Returns}
+Returns vote count 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCandidate_a1c11cf5fece39c5da85a7dff87e8959d}\label{classCandidate_a1c11cf5fece39c5da85a7dff87e8959d}} 
+\index{Candidate@{Candidate}!setName@{setName}}
+\index{setName@{setName}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void Candidate\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{set\+Name }\end{DoxyParamCaption})}
+
+
+
+Sets the name variable to set\+Name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & This is the name we are setting it to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCandidate_abb9a733e4a39e1223b185be2c711321f}\label{classCandidate_abb9a733e4a39e1223b185be2c711321f}} 
+\index{Candidate@{Candidate}!setParty@{setParty}}
+\index{setParty@{setParty}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{setParty()}{setParty()}}
+{\footnotesize\ttfamily void Candidate\+::set\+Party (\begin{DoxyParamCaption}\item[{string}]{x }\end{DoxyParamCaption})}
+
+
+
+Sets the party name to a specified x. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & This is the party we are setting it to \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+candidate.\+h\item 
+candidate.\+cpp\end{DoxyCompactItemize}

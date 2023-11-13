@@ -1,0 +1,4 @@
+<map id="POElection" name="POElection">
+<area shape="rect" id="node1" title="This is the popularity only election class." alt="" coords="5,80,97,107"/>
+<area shape="rect" id="node2" href="$classElection.html" title="Main election class that runs CPL and IRV." alt="" coords="14,5,89,32"/>
+</map>

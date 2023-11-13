@@ -1,0 +1,148 @@
+\hypertarget{classAudit}{}\doxysection{Audit Class Reference}
+\label{classAudit}\index{Audit@{Audit}}
+
+
+This is the audit class which creates and adds output to the audit file.  
+
+
+
+
+{\ttfamily \#include $<$audit.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAudit_af1135a9542aa30e6aed11c797840ca8a}\label{classAudit_af1135a9542aa30e6aed11c797840ca8a}} 
+\mbox{\hyperlink{classAudit_af1135a9542aa30e6aed11c797840ca8a}{Audit}} ()
+\begin{DoxyCompactList}\small\item\em This is a constructor for the audit class, sets file\+Output and election\+Type as blank. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAudit_ad373cdc52ab37c4f877d34f417c130a1}{set\+Election\+Type}} (string election, int count)
+\begin{DoxyCompactList}\small\item\em Sets the election type variable. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAudit_a7502ed560c7897a213027b043eadf6dd}{set\+Invalid\+File}} (int count)
+\begin{DoxyCompactList}\small\item\em Opening the audit file to write to. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAudit_ae713a8bdebeb592eb4e60a68d2337a7b}\label{classAudit_ae713a8bdebeb592eb4e60a68d2337a7b}} 
+ofstream {\bfseries Open\+File} (string filename)
+\item 
+string \mbox{\hyperlink{classAudit_aa7b9e7bfb8fbfb2007817210bb226772}{getfile\+Output}} ()
+\begin{DoxyCompactList}\small\item\em Gets the file output name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classAudit_afa8cc0196298eee7324e673ac7d4e88c}{getelection\+Type}} ()
+\begin{DoxyCompactList}\small\item\em Gets the election type name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAudit_a1161bb7cf78a31c337c45b0da56d8d8d}{setfile\+Output}} (string name)
+\begin{DoxyCompactList}\small\item\em Sets the file name. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classAudit_a707be0574de50d6a89766ab797054dd1}{getnumber\+Of\+Election}} ()
+\begin{DoxyCompactList}\small\item\em Gets the number of election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAudit_af48eb263de43143f62adc7202bec0c77}{setnumber\+Of\+Election}} (int num)
+\begin{DoxyCompactList}\small\item\em Sets the election number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the audit class which creates and adds output to the audit file. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAudit_afa8cc0196298eee7324e673ac7d4e88c}\label{classAudit_afa8cc0196298eee7324e673ac7d4e88c}} 
+\index{Audit@{Audit}!getelectionType@{getelectionType}}
+\index{getelectionType@{getelectionType}!Audit@{Audit}}
+\doxysubsubsection{\texorpdfstring{getelectionType()}{getelectionType()}}
+{\footnotesize\ttfamily string Audit\+::getelection\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the election type name. 
+
+\begin{DoxyReturn}{Returns}
+Returns election type 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAudit_aa7b9e7bfb8fbfb2007817210bb226772}\label{classAudit_aa7b9e7bfb8fbfb2007817210bb226772}} 
+\index{Audit@{Audit}!getfileOutput@{getfileOutput}}
+\index{getfileOutput@{getfileOutput}!Audit@{Audit}}
+\doxysubsubsection{\texorpdfstring{getfileOutput()}{getfileOutput()}}
+{\footnotesize\ttfamily string Audit\+::getfile\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the file output name. 
+
+\begin{DoxyReturn}{Returns}
+Returns the file name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAudit_a707be0574de50d6a89766ab797054dd1}\label{classAudit_a707be0574de50d6a89766ab797054dd1}} 
+\index{Audit@{Audit}!getnumberOfElection@{getnumberOfElection}}
+\index{getnumberOfElection@{getnumberOfElection}!Audit@{Audit}}
+\doxysubsubsection{\texorpdfstring{getnumberOfElection()}{getnumberOfElection()}}
+{\footnotesize\ttfamily int Audit\+::getnumber\+Of\+Election (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the number of election. 
+
+\begin{DoxyReturn}{Returns}
+Returns the number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAudit_ad373cdc52ab37c4f877d34f417c130a1}\label{classAudit_ad373cdc52ab37c4f877d34f417c130a1}} 
+\index{Audit@{Audit}!setElectionType@{setElectionType}}
+\index{setElectionType@{setElectionType}!Audit@{Audit}}
+\doxysubsubsection{\texorpdfstring{setElectionType()}{setElectionType()}}
+{\footnotesize\ttfamily void Audit\+::set\+Election\+Type (\begin{DoxyParamCaption}\item[{string}]{election,  }\item[{int}]{count }\end{DoxyParamCaption})}
+
+
+
+Sets the election type variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & Is the election that we\textquotesingle{}re setting it to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAudit_a1161bb7cf78a31c337c45b0da56d8d8d}\label{classAudit_a1161bb7cf78a31c337c45b0da56d8d8d}} 
+\index{Audit@{Audit}!setfileOutput@{setfileOutput}}
+\index{setfileOutput@{setfileOutput}!Audit@{Audit}}
+\doxysubsubsection{\texorpdfstring{setfileOutput()}{setfileOutput()}}
+{\footnotesize\ttfamily void Audit\+::setfile\+Output (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Sets the file name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & Is the filename we want to set it to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAudit_a7502ed560c7897a213027b043eadf6dd}\label{classAudit_a7502ed560c7897a213027b043eadf6dd}} 
+\index{Audit@{Audit}!setInvalidFile@{setInvalidFile}}
+\index{setInvalidFile@{setInvalidFile}!Audit@{Audit}}
+\doxysubsubsection{\texorpdfstring{setInvalidFile()}{setInvalidFile()}}
+{\footnotesize\ttfamily void Audit\+::set\+Invalid\+File (\begin{DoxyParamCaption}\item[{int}]{count }\end{DoxyParamCaption})}
+
+
+
+Opening the audit file to write to. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & This is the filename we are opening \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The output audit file 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAudit_af48eb263de43143f62adc7202bec0c77}\label{classAudit_af48eb263de43143f62adc7202bec0c77}} 
+\index{Audit@{Audit}!setnumberOfElection@{setnumberOfElection}}
+\index{setnumberOfElection@{setnumberOfElection}!Audit@{Audit}}
+\doxysubsubsection{\texorpdfstring{setnumberOfElection()}{setnumberOfElection()}}
+{\footnotesize\ttfamily void Audit\+::setnumber\+Of\+Election (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Sets the election number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & number to set it to \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+audit.\+h\item 
+audit.\+cpp\end{DoxyCompactItemize}
